@@ -14,7 +14,7 @@
     <p>📬 Let’s connect<br>
     Feel free to reach out to me at <a href="mailto:maha.abid@insat.ucar.tn">maha.abid@insat.ucar.tn</a>.</p>
   </div>
-  <div style="flex: 0 0 200px;">
+  <div style="flex: 0 0 300px;">
     <img src="/static/cyber_maha.png" alt="Maha in Cybersecurity" style="border-radius: 40%; width: 400px; height: 400px; object-fit: cover; box-shadow: 0 4px 12px rgba(0,0,0,0.2);" />
   </div>
 </div>
