@@ -18,6 +18,3 @@
     <img src="/static/cyber_maha.png" alt="Maha in Cybersecurity" style="border-radius: 40%; width: 400px; height: 400px; object-fit: cover; box-shadow: 0 4px 12px rgba(0,0,0,0.2);" />
   </div>
 </div>
-
-
-

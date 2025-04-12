@@ -7,6 +7,7 @@ copyright: "All Rights Reserved"
 outputs:
   home: ["HTML", "RSS"]
   section: ["HTML"]
+  
 
 
 params:
@@ -16,11 +17,12 @@ params:
   EnableSharingButtons: true
   EnableGlobalLanguageMenu: false
   backgroundEffects: true
-  showPosts: true
+  showPosts: false
   tags: true
   ReadMoreText: true
   ShowReadingTime: true
   LastModDisplay: true
+  mainSections: []
 
   logo:
     logoText: "Mah0u.sh"
@@ -36,7 +38,7 @@ params:
     - name: "github"
       url: "https://github.com/mahaabid2001"
     - name: "website"
-      url: "https://coolapso.sh"
+      url: "https://blogmah0u.netlify.app/"
       icon: "fa-solid fa-terminal"
     - name: "linkedin"
       url: "https://www.linkedin.com/in/mahaabid2001/"
@@ -46,7 +48,7 @@ params:
     showVersion: true
     socialIcons: true
     author: true
-    rss: true
+    rss: false
     trademark: true
     copyright: true
     bottomText:
@@ -68,7 +70,7 @@ menu:
 
     - identifier: "shell"
       name: "Terminal CV"  
-      url: "/cv/"         
+      url: "https://cvmah0u.netlify.app/"         
       weight: 3
 
 
@@ -76,3 +78,8 @@ menu:
 taxonomies:
   tag: "tags"
   category: "blog"
+
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
