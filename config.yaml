@@ -1,0 +1,78 @@
+baseURL: 'localhost:1313'
+languageCode: 'en'
+title: 'Personal Website'
+theme: ['hello-4s3ti'] 
+copyright: "All Rights Reserved"
+
+outputs:
+  home: ["HTML", "RSS"]
+  section: ["HTML"]
+
+
+params:
+  version: "dev"
+  defaultTheme: "dark"
+  EnableThemeToggle: true
+  EnableSharingButtons: true
+  EnableGlobalLanguageMenu: false
+  backgroundEffects: true
+  showPosts: true
+  tags: true
+  ReadMoreText: true
+  ShowReadingTime: true
+  LastModDisplay: true
+
+  logo:
+    logoText: "Mah0u.sh"
+    logoCursorColor: "#ffffff"
+
+  author:
+    name: "Mah0u"
+
+  fontAwesome:
+    kitURL: "https://kit.fontawesome.com/0ed5cec925.js"
+
+  social:
+    - name: "github"
+      url: "https://github.com/mahaabid2001"
+    - name: "website"
+      url: "https://coolapso.sh"
+      icon: "fa-solid fa-terminal"
+    - name: "linkedin"
+      url: "https://www.linkedin.com/in/mahaabid2001/"
+      icon: "fa-brands fa-linkedin"
+
+  footer:
+    showVersion: true
+    socialIcons: true
+    author: true
+    rss: true
+    trademark: true
+    copyright: true
+    bottomText:
+      - 'Powered by <a href="http://gohugo.io">Hugo</a>'
+      - 'with <a href="https://github.com/coolapso/hugo-theme-hello-4s3ti">Hello-friend-4s3ti</a>'
+      - 'and <a href="https://github.com/coolapso/hugo-theme-terminalcv">Terminal CV</a>'
+
+menu:
+  main:
+    - identifier: "about"
+      name: "About"
+      url: "/about"
+      weight: 1
+
+    - identifier: "posts"
+      name: "Posts"
+      url: "/posts"
+      weight: 2
+
+    - identifier: "shell"
+      name: "Terminal CV"  
+      url: "/cv/"         
+      weight: 3
+
+
+
+taxonomies:
+  tag: "tags"
+  category: "blog"
