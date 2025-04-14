@@ -17,7 +17,7 @@ params:
   EnableSharingButtons: true
   EnableGlobalLanguageMenu: false
   backgroundEffects: true
-  showPosts: false
+  showPosts: true
   tags: true
   ReadMoreText: true
   ShowReadingTime: true
