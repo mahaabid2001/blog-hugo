@@ -11,9 +11,9 @@
     <atom:link href="//localhost:1313/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Certified Red Team Professional; My Experience and Takeaways</title>
-      <link>//localhost:1313/posts/myjourneywithcrtp/</link>
+      <link>//localhost:1313/posts/my-journey-with-crtp/</link>
       <pubDate>Mon, 14 Apr 2025 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/posts/myjourneywithcrtp/</guid>
+      <guid>//localhost:1313/posts/my-journey-with-crtp/</guid>
       <description>&lt;h3 id=&#34;introduction&#34;&gt;Introduction&lt;/h3&gt;&#xA;&lt;p&gt;Hello everyone 👋&lt;/p&gt;&#xA;&lt;p&gt;I wanted to share with you my personal experience with the &lt;strong&gt;Certified Red Team Professional (CRTP)&lt;/strong&gt; exam and how it helped me demystify a topic I always found intimidating — &lt;strong&gt;Active Directory&lt;/strong&gt;.&lt;/p&gt;&#xA;&lt;p&gt;To begin with, let’s define CRTP. The &lt;strong&gt;CRTP&lt;/strong&gt; is a certification offered by &lt;strong&gt;Pentester Academy&lt;/strong&gt; that focuses on &lt;strong&gt;red teaming operations&lt;/strong&gt; against &lt;strong&gt;Windows Active Directory environments&lt;/strong&gt;. It’s hands-on, lab-based, and designed to give a solid understanding of attacking AD infrastructure using common misconfigurations and real-world tactics.&lt;/p&gt;</description>
     </item>
     <item>
