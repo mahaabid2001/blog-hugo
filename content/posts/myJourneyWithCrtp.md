@@ -1,16 +1,18 @@
-+++
-categories = ["Certifications"]
-date = "2025-04-14"
-description = "My journey with the Certified Red Team Professional (CRTP) certification and how it helped me better understand Active Directory."
-featured = "crtp_blog.jpg"
-featuredalt = "CRTP Lab Screenshot"
-featuredpath = "certifications"
-linktitle = "My CRTP Journey"
-title = "Certified Red Team Professional: My Experience and Takeaways"
-slug = "crtp-my-experience"
-type = "post"
-url = "/posts/crtp-my-experience/"
-+++
+---
+author:
+  name: "Mah0u"
+date: 2025-04-14
+linktitle: My CRTP Journey
+type:
+  - post
+  - posts
+title: Certified Red Team Professional; My Experience and Takeaways
+categories:
+  - Certifications
+weight: 10
+series:
+  - Certifications Journey
+---
 
 ### Introduction
 
