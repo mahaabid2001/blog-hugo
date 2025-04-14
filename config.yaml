@@ -23,6 +23,9 @@ params:
   ShowReadingTime: true
   LastModDisplay: true
   mainSections: []
+  favicon:
+    ico: "favicon.ico"
+    mask: "#000000"
 
   logo:
     logoText: "Mah0u.sh"

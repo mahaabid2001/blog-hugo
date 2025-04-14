@@ -5,18 +5,18 @@
 <meta http-equiv="X-UA-Compatible" content="ie=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <meta name="author" content="Mah0u">
-<meta name="description" content="Hugo utilise l&rsquo;excellente librairie go html/template pour son moteur de modèles. c&rsquo;est un moteur extrêmement léger qui offre un très petit nombre de fonctions logiques. À notre expérience, c&rsquo;est juste ce qu&rsquo;il faut pour créer un bon site web statique. Si vous avez déjà utilisé d&rsquo;autre moteurs de modèles pour différents langages ou frameworks, vous allez retrouver beaucoup de similitudes avec les modèles go.
-Ce document est une introduction sur l&rsquo;utilisation de Go templates. La documentation go fourni plus de détails.
+<meta name="description" content="Hugo uses the excellent Go html/template library for its template engine. It is an extremely lightweight engine that provides a very small amount of logic. In our experience that it is just the right amount of logic to be able to create a good static website. If you have used other template systems from different languages or frameworks you will find a lot of similarities in Go templates.
+This document is a brief primer on using Go templates. The Go docs provide more details.
 " />
-<meta name="keywords" content="" />
+<meta name="keywords" content=", go, golang, templates, themes, development" />
 <meta name="robots" content="noodp" />
 <meta name="theme-color" content="" />
-<link rel="canonical" href="//localhost:1313/content/posts/introduction-aux-modeles-hugo/" />
+<link rel="canonical" href="//localhost:1313/posts/goisforlovers/" />
 
 
     <title>
         
-            Introduction aux modèles (Hu)go :: Personal Website 
+            (Hu)go Template Primer :: Personal Website 
         
     </title>
 
@@ -49,23 +49,26 @@ Ce document est une introduction sur l&rsquo;utilisation de Go templates. La doc
 
 
 
-  <meta itemprop="name" content="Introduction aux modèles (Hu)go">
-  <meta itemprop="description" content="Hugo utilise l’excellente librairie go html/template pour son moteur de modèles. c’est un moteur extrêmement léger qui offre un très petit nombre de fonctions logiques. À notre expérience, c’est juste ce qu’il faut pour créer un bon site web statique. Si vous avez déjà utilisé d’autre moteurs de modèles pour différents langages ou frameworks, vous allez retrouver beaucoup de similitudes avec les modèles go.
-Ce document est une introduction sur l’utilisation de Go templates. La documentation go fourni plus de détails.">
+  <meta itemprop="name" content="(Hu)go Template Primer">
+  <meta itemprop="description" content="Hugo uses the excellent Go html/template library for its template engine. It is an extremely lightweight engine that provides a very small amount of logic. In our experience that it is just the right amount of logic to be able to create a good static website. If you have used other template systems from different languages or frameworks you will find a lot of similarities in Go templates.
+This document is a brief primer on using Go templates. The Go docs provide more details.">
   <meta itemprop="datePublished" content="2014-04-02T00:00:00+00:00">
   <meta itemprop="dateModified" content="2014-04-02T00:00:00+00:00">
-  <meta itemprop="wordCount" content="2392">
+  <meta itemprop="wordCount" content="2034">
+  <meta itemprop="keywords" content="Go,Golang,Templates,Themes,Development">
 
   <meta name="twitter:card" content="summary">
-  <meta name="twitter:title" content="Introduction aux modèles (Hu)go">
-  <meta name="twitter:description" content="Hugo utilise l’excellente librairie go html/template pour son moteur de modèles. c’est un moteur extrêmement léger qui offre un très petit nombre de fonctions logiques. À notre expérience, c’est juste ce qu’il faut pour créer un bon site web statique. Si vous avez déjà utilisé d’autre moteurs de modèles pour différents langages ou frameworks, vous allez retrouver beaucoup de similitudes avec les modèles go.
-Ce document est une introduction sur l’utilisation de Go templates. La documentation go fourni plus de détails.">
+  <meta name="twitter:title" content="(Hu)go Template Primer">
+  <meta name="twitter:description" content="Hugo uses the excellent Go html/template library for its template engine. It is an extremely lightweight engine that provides a very small amount of logic. In our experience that it is just the right amount of logic to be able to create a good static website. If you have used other template systems from different languages or frameworks you will find a lot of similarities in Go templates.
+This document is a brief primer on using Go templates. The Go docs provide more details.">
 
 
 
 
 
-    <meta property="article:section" content="Go" />
+    <meta property="article:section" content="Development" />
+
+    <meta property="article:section" content="golang" />
 
 
 
@@ -162,719 +165,248 @@ Ce document est une introduction sur l’utilisation de Go templates. La documen
 
             <div class="content">
                 
-    <main class="post">
+  <main class="post">
 
-        <div class="post-info">
-            
-            </p>
-        </div>
+    <div class="post-info">
+      <p>
+        <i class="fa-solid fa-clock"></i>
+        10 minutes
+        <i class="fa-solid fa-clipboard"></i>
+        2034 Words
+        
+      </p>
+      <p>
+        <i class="fa-solid fa-calendar-days"></i>
+        
+          2014-04-02 01:00
+        
 
-        <article>
-            
-                <h2 class="post-title"><a href="//localhost:1313/content/posts/introduction-aux-modeles-hugo/">Introduction aux modèles (Hu)go</a></h2>
-            
+         
+          
+        
+      </p>
+      <p>
+      
+    <p>
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-tag meta-icon"><path d="M20.59 13.41l-7.17 7.17a2 2 0 0 1-2.83 0L2 12V2h10l8.59 8.59a2 2 0 0 1 0 2.82z"></path><line x1="7" y1="7" x2="7" y2="7"></line></svg>
 
+        <span class="tag"><a href="//localhost:1313/tags/go/">go</a></span>
+        <span class="tag"><a href="//localhost:1313/tags/golang/">golang</a></span>
+        <span class="tag"><a href="//localhost:1313/tags/templates/">templates</a></span>
+        <span class="tag"><a href="//localhost:1313/tags/themes/">themes</a></span>
+        <span class="tag"><a href="//localhost:1313/tags/development/">development</a></span>
+        
+    </p>
 
-            
-            
-            
+      
+    <p>
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-folder meta-icon"><path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z"></path></svg>
 
-            <div class="post-content">
-                <p>Hugo utilise l&rsquo;excellente librairie <a href="http://golang.org/">go</a> <a href="http://golang.org/pkg/html/template/">html/template</a> pour
-son moteur de modèles. c&rsquo;est un moteur extrêmement léger qui offre un très petit
-nombre de fonctions logiques. À notre expérience, c&rsquo;est juste ce qu&rsquo;il faut pour
-créer un bon site web statique. Si vous avez déjà utilisé d&rsquo;autre moteurs de
-modèles pour différents langages ou frameworks, vous allez retrouver beaucoup de
-similitudes avec les modèles go.</p>
-<p>Ce document est une introduction sur l&rsquo;utilisation de Go templates. La
-<a href="http://golang.org/pkg/html/template/">documentation go</a> fourni plus de détails.</p>
-<h2 id="introduction-aux-modèles-go">Introduction aux modèles Go</h2>
-<p>Go templates fournit un langage de modèles très simple. Il adhère à la
-conviction que les modèles ou les vues doivent avoir une logique des plus
-élémentaires. L&rsquo;une des conséquences de cette simplicité est que les modèles
-seront plus rapides a être analysés.</p>
-<p>Une caractéristique unique de Go templates est qu&rsquo;il est conscient du contenu.
-Les variables et le contenu va être nettoyé suivant le contexte d&rsquo;utilisation.
-Plus de détails sont disponibles dans la <a href="http://golang.org/pkg/html/template/">documentation go</a>.</p>
-<h2 id="syntaxe-basique">Syntaxe basique</h2>
-<p>Les modèles en langage Go sont des fichiers HTML avec l&rsquo;ajout de variables et
-fonctions.</p>
-<p><strong>Les variables Go et les fonctions sont accessibles avec {{ }}</strong></p>
-<p>Accès à une variable prédéfinie &ldquo;foo&rdquo;:</p>
+        <span class="tag"><a href="//localhost:1313/categories/development/">Development</a></span>
+        <span class="tag"><a href="//localhost:1313/categories/golang/">golang</a></span>
+        
+    </p>
+
+      </p>
+    </div>
+
+    <article>
+      <h1 class="post-title">
+        <a href="//localhost:1313/posts/goisforlovers/">(Hu)go Template Primer</a>
+      </h1>
+
+      
+
+      
+
+      
+
+      <div class="post-content">
+        <p>Hugo uses the excellent <a href="https://golang.org/">Go</a> <a href="https://golang.org/pkg/html/template/">html/template</a> library for
+its template engine. It is an extremely lightweight engine that provides a very
+small amount of logic. In our experience that it is just the right amount of
+logic to be able to create a good static website. If you have used other
+template systems from different languages or frameworks you will find a lot of
+similarities in Go templates.</p>
+<p>This document is a brief primer on using Go templates. The <a href="https://golang.org/pkg/html/template/">Go docs</a>
+provide more details.</p>
+<h2 id="introduction-to-go-templates">Introduction to Go Templates</h2>
+<p>Go templates provide an extremely simple template language. It adheres to the
+belief that only the most basic of logic belongs in the template or view layer.
+One consequence of this simplicity is that Go templates parse very quickly.</p>
+<p>A unique characteristic of Go templates is they are content aware. Variables and
+content will be sanitized depending on the context of where they are used. More
+details can be found in the <a href="https://golang.org/pkg/html/template/">Go docs</a>.</p>
+<h2 id="basic-syntax">Basic Syntax</h2>
+<p>Golang templates are HTML files with the addition of variables and
+functions.</p>
+<p><strong>Go variables and functions are accessible within {{ }}</strong></p>
+<p>Accessing a predefined variable &ldquo;foo&rdquo;:</p>
 <pre><code>{{ foo }}
 </code></pre>
-<p><strong>Les paramètres sont séparés par des espaces</strong></p>
-<p>Appel de la fonction add avec 1 et 2 en argument**</p>
+<p><strong>Parameters are separated using spaces</strong></p>
+<p>Calling the add function with input of 1, 2:</p>
 <pre><code>{{ add 1 2 }}
 </code></pre>
-<p><strong>Les méthodes et les champs sont accessibles par un point</strong></p>
-<p>Accès au paramètre de la page &ldquo;bar&rdquo;</p>
+<p><strong>Methods and fields are accessed via dot notation</strong></p>
+<p>Accessing the Page Parameter &ldquo;bar&rdquo;</p>
 <pre><code>{{ .Params.bar }}
 </code></pre>
-<p><strong>Les parenthèses peuvent être utilisées pour grouper des éléments ensemble</strong></p>
-
-
-
-<div class="goat svg-container ">
-  
-    <svg
-      xmlns="http://www.w3.org/2000/svg"
-      font-family="Menlo,Lucida Console,monospace"
-      
-        viewBox="0 0 624 25"
-      >
-      <g transform='translate(8,16)'>
-<text text-anchor='middle' x='0' y='4' fill='currentColor' style='font-size:1em'>{</text>
-<text text-anchor='middle' x='8' y='4' fill='currentColor' style='font-size:1em'>{</text>
-<text text-anchor='middle' x='24' y='4' fill='currentColor' style='font-size:1em'>i</text>
-<text text-anchor='middle' x='32' y='4' fill='currentColor' style='font-size:1em'>f</text>
-<text text-anchor='middle' x='48' y='4' fill='currentColor' style='font-size:1em'>o</text>
-<text text-anchor='middle' x='56' y='4' fill='currentColor' style='font-size:1em'>r</text>
-<text text-anchor='middle' x='72' y='4' fill='currentColor' style='font-size:1em'>(</text>
-<text text-anchor='middle' x='80' y='4' fill='currentColor' style='font-size:1em'>i</text>
-<text text-anchor='middle' x='88' y='4' fill='currentColor' style='font-size:1em'>s</text>
-<text text-anchor='middle' x='96' y='4' fill='currentColor' style='font-size:1em'>s</text>
-<text text-anchor='middle' x='104' y='4' fill='currentColor' style='font-size:1em'>e</text>
-<text text-anchor='middle' x='112' y='4' fill='currentColor' style='font-size:1em'>t</text>
-<text text-anchor='middle' x='128' y='4' fill='currentColor' style='font-size:1em'>.</text>
-<text text-anchor='middle' x='136' y='4' fill='currentColor' style='font-size:1em'>P</text>
-<text text-anchor='middle' x='144' y='4' fill='currentColor' style='font-size:1em'>a</text>
-<text text-anchor='middle' x='152' y='4' fill='currentColor' style='font-size:1em'>r</text>
-<text text-anchor='middle' x='160' y='4' fill='currentColor' style='font-size:1em'>a</text>
-<text text-anchor='middle' x='168' y='4' fill='currentColor' style='font-size:1em'>m</text>
-<text text-anchor='middle' x='176' y='4' fill='currentColor' style='font-size:1em'>s</text>
-<text text-anchor='middle' x='192' y='4' fill='currentColor' style='font-size:1em'>"</text>
-<text text-anchor='middle' x='200' y='4' fill='currentColor' style='font-size:1em'>a</text>
-<text text-anchor='middle' x='208' y='4' fill='currentColor' style='font-size:1em'>l</text>
-<text text-anchor='middle' x='216' y='4' fill='currentColor' style='font-size:1em'>t</text>
-<text text-anchor='middle' x='224' y='4' fill='currentColor' style='font-size:1em'>"</text>
-<text text-anchor='middle' x='232' y='4' fill='currentColor' style='font-size:1em'>)</text>
-<text text-anchor='middle' x='248' y='4' fill='currentColor' style='font-size:1em'>(</text>
-<text text-anchor='middle' x='256' y='4' fill='currentColor' style='font-size:1em'>i</text>
-<text text-anchor='middle' x='264' y='4' fill='currentColor' style='font-size:1em'>s</text>
-<text text-anchor='middle' x='272' y='4' fill='currentColor' style='font-size:1em'>s</text>
-<text text-anchor='middle' x='280' y='4' fill='currentColor' style='font-size:1em'>e</text>
-<text text-anchor='middle' x='288' y='4' fill='currentColor' style='font-size:1em'>t</text>
-<text text-anchor='middle' x='304' y='4' fill='currentColor' style='font-size:1em'>.</text>
-<text text-anchor='middle' x='312' y='4' fill='currentColor' style='font-size:1em'>P</text>
-<text text-anchor='middle' x='320' y='4' fill='currentColor' style='font-size:1em'>a</text>
-<text text-anchor='middle' x='328' y='4' fill='currentColor' style='font-size:1em'>r</text>
-<text text-anchor='middle' x='336' y='4' fill='currentColor' style='font-size:1em'>a</text>
-<text text-anchor='middle' x='344' y='4' fill='currentColor' style='font-size:1em'>m</text>
-<text text-anchor='middle' x='352' y='4' fill='currentColor' style='font-size:1em'>s</text>
-<text text-anchor='middle' x='368' y='4' fill='currentColor' style='font-size:1em'>"</text>
-<text text-anchor='middle' x='376' y='4' fill='currentColor' style='font-size:1em'>c</text>
-<text text-anchor='middle' x='384' y='4' fill='currentColor' style='font-size:1em'>a</text>
-<text text-anchor='middle' x='392' y='4' fill='currentColor' style='font-size:1em'>p</text>
-<text text-anchor='middle' x='400' y='4' fill='currentColor' style='font-size:1em'>t</text>
-<text text-anchor='middle' x='408' y='4' fill='currentColor' style='font-size:1em'>i</text>
-<text text-anchor='middle' x='416' y='4' fill='currentColor' style='font-size:1em'>o</text>
-<text text-anchor='middle' x='424' y='4' fill='currentColor' style='font-size:1em'>n</text>
-<text text-anchor='middle' x='432' y='4' fill='currentColor' style='font-size:1em'>"</text>
-<text text-anchor='middle' x='440' y='4' fill='currentColor' style='font-size:1em'>)</text>
-<text text-anchor='middle' x='456' y='4' fill='currentColor' style='font-size:1em'>}</text>
-<text text-anchor='middle' x='464' y='4' fill='currentColor' style='font-size:1em'>}</text>
-<text text-anchor='middle' x='480' y='4' fill='currentColor' style='font-size:1em'>C</text>
-<text text-anchor='middle' x='488' y='4' fill='currentColor' style='font-size:1em'>a</text>
-<text text-anchor='middle' x='496' y='4' fill='currentColor' style='font-size:1em'>p</text>
-<text text-anchor='middle' x='504' y='4' fill='currentColor' style='font-size:1em'>t</text>
-<text text-anchor='middle' x='512' y='4' fill='currentColor' style='font-size:1em'>i</text>
-<text text-anchor='middle' x='520' y='4' fill='currentColor' style='font-size:1em'>o</text>
-<text text-anchor='middle' x='528' y='4' fill='currentColor' style='font-size:1em'>n</text>
-<text text-anchor='middle' x='544' y='4' fill='currentColor' style='font-size:1em'>{</text>
-<text text-anchor='middle' x='552' y='4' fill='currentColor' style='font-size:1em'>{</text>
-<text text-anchor='middle' x='568' y='4' fill='currentColor' style='font-size:1em'>e</text>
-<text text-anchor='middle' x='576' y='4' fill='currentColor' style='font-size:1em'>n</text>
-<text text-anchor='middle' x='584' y='4' fill='currentColor' style='font-size:1em'>d</text>
-<text text-anchor='middle' x='600' y='4' fill='currentColor' style='font-size:1em'>}</text>
-<text text-anchor='middle' x='608' y='4' fill='currentColor' style='font-size:1em'>}</text>
-</g>
-
-    </svg>
-  
-</div>
+<p><strong>Parentheses can be used to group items together</strong></p>
+<pre><code>{{ if or (isset .Params &quot;alt&quot;) (isset .Params &quot;caption&quot;) }} Caption {{ end }}
+</code></pre>
 <h2 id="variables">Variables</h2>
-<p>Chaque modèle go a une structure (objet) mis à sa disposition. Avec Hugo, à
-chaque modèle est passé soit une page, soit une structure de nœud, suivant quel
-type de page vous rendez. Plus de détails sont disponibles sur la page des
-<a href="/layout/variables">variables</a>.</p>
-<p>Une variable est accessible par son nom.</p>
+<p>Each Go template has a struct (object) made available to it. In hugo each
+template is passed either a page or a node struct depending on which type of
+page you are rendering. More details are available on the
+<a href="/layout/variables">variables</a> page.</p>
+<p>A variable is accessed by referencing the variable name.</p>
 <pre><code>&lt;title&gt;{{ .Title }}&lt;/title&gt;
 </code></pre>
-<p>Les variables peuvent également être définies et appelées.</p>
+<p>Variables can also be defined and referenced.</p>
 <pre><code>{{ $address := &quot;123 Main St.&quot;}}
 {{ $address }}
 </code></pre>
 <h2 id="functions">Functions</h2>
-<p>Go templace est livré avec quelques fonctions qui fournissent des
-fonctionnalités basiques. Le système de Go template fourni également un
-mécanisme permettant aux applications d&rsquo;étendre les fonctions disponible. Les
-<a href="/layout/functions">fonctions de modèle Hugo</a> fourni quelques fonctionnalités
-supplémentaires que nous espérons qu&rsquo;elles seront utiles pour vos sites web.
-Les functions sont appelées en utilisant leur nom suivi par les paramètres
-requis séparés par des espaces. Des fonctions de modèles ne peuvent pas être
-ajoutées sans recompiler Hugo.</p>
-<p><strong>Exemple:</strong></p>
+<p>Go template ship with a few functions which provide basic functionality. The Go
+template system also provides a mechanism for applications to extend the
+available functions with their own. <a href="/layout/functions">Hugo template
+functions</a> provide some additional functionality we believe
+are useful for building websites. Functions are called by using their name
+followed by the required parameters separated by spaces. Template
+functions cannot be added without recompiling hugo.</p>
+<p><strong>Example:</strong></p>
 <pre><code>{{ add 1 2 }}
 </code></pre>
-<h2 id="inclusions">Inclusions</h2>
-<p>Lorsque vous incluez un autre modèle, vous devez y passer les données qu&rsquo;il sera
-en mesure d&rsquo;accèder. Pour passer le contexte actuel, pensez à ajouter un point.
-La localisation du modèle sera toujours à partir du répertoire /layout/ dans
-Hugo.</p>
-<p><strong>Exemple:</strong></p>
+<h2 id="includes">Includes</h2>
+<p>When including another template you will pass to it the data it will be
+able to access. To pass along the current context please remember to
+include a trailing dot. The templates location will always be starting at
+the /layout/ directory within Hugo.</p>
+<p><strong>Example:</strong></p>
 <pre><code>{{ template &quot;chrome/header.html&quot; . }}
 </code></pre>
-<h2 id="logique">Logique</h2>
-<p>Go templates fourni les itérations et la logique conditionnèle des plus basique.</p>
-<h3 id="itération">Itération</h3>
-<p>Comme en go, les modèles go utilisent fortement <em>range</em> pour itérer dans une
-map, un array ou un slice. Les exemples suivant montre différentes façons
-d&rsquo;utiliser <em>range</em></p>
-<p><strong>Exemple 1: En utilisant le context</strong></p>
+<h2 id="logic">Logic</h2>
+<p>Go templates provide the most basic iteration and conditional logic.</p>
+<h3 id="iteration">Iteration</h3>
+<p>Just like in Go, the Go templates make heavy use of range to iterate over
+a map, array or slice. The following are different examples of how to use
+range.</p>
+<p><strong>Example 1: Using Context</strong></p>
 <pre><code>{{ range array }}
     {{ . }}
 {{ end }}
 </code></pre>
-<p><strong>Exemple 2: En déclarant un nom de variable</strong></p>
+<p><strong>Example 2: Declaring value variable name</strong></p>
 <pre><code>{{range $element := array}}
     {{ $element }}
 {{ end }}
 </code></pre>
-<p><strong>Exemple 2: En déclarant un nom de varialbe pour la clé et la valeur</strong></p>
+<p><strong>Example 2: Declaring key and value variable name</strong></p>
 <pre><code>{{range $index, $element := array}}
     {{ $index }}
     {{ $element }}
 {{ end }}
 </code></pre>
-<h3 id="conditions">Conditions</h3>
-<p><em>If</em>, <em>else</em>, <em>with</em>, <em>or</em>, <em>&amp;</em>, <em>and</em> fournissent la base pour la logique
-conditionnelle avec Go templates. Comme <em>range</em>, chaque déclaration est fermé
-avec <code>end</code>.</p>
-<p>Go templates considère les valeurs suivante comme <em>false</em> :</p>
+<h3 id="conditionals">Conditionals</h3>
+<p>If, else, with, or, &amp; and provide the framework for handling conditional
+logic in Go Templates. Like range, each statement is closed with <code>end</code>.</p>
+<p>Go Templates treat the following values as false:</p>
 <ul>
 <li>false</li>
 <li>0</li>
-<li>tout array, slice, map ou chaine d&rsquo;une longueur de zéro</li>
+<li>any array, slice, map, or string of length zero</li>
 </ul>
-<p><strong>Exemple 1: If</strong></p>
+<p><strong>Example 1: If</strong></p>
 <pre><code>{{ if isset .Params &quot;title&quot; }}&lt;h4&gt;{{ index .Params &quot;title&quot; }}&lt;/h4&gt;{{ end }}
 </code></pre>
-<p><strong>Exemple 2: If -&gt; Else</strong></p>
+<p><strong>Example 2: If -&gt; Else</strong></p>
 <pre><code>{{ if isset .Params &quot;alt&quot; }}
     {{ index .Params &quot;alt&quot; }}
 {{else}}
     {{ index .Params &quot;caption&quot; }}
 {{ end }}
 </code></pre>
-<p><strong>Exemple 3: And &amp; Or</strong></p>
-
-
-
-<div class="goat svg-container ">
-  
-    <svg
-      xmlns="http://www.w3.org/2000/svg"
-      font-family="Menlo,Lucida Console,monospace"
-      
-        viewBox="0 0 520 41"
-      >
-      <g transform='translate(8,16)'>
-<text text-anchor='middle' x='0' y='4' fill='currentColor' style='font-size:1em'>{</text>
-<text text-anchor='middle' x='8' y='4' fill='currentColor' style='font-size:1em'>{</text>
-<text text-anchor='middle' x='24' y='4' fill='currentColor' style='font-size:1em'>i</text>
-<text text-anchor='middle' x='32' y='4' fill='currentColor' style='font-size:1em'>f</text>
-<text text-anchor='middle' x='32' y='20' fill='currentColor' style='font-size:1em'>(</text>
-<text text-anchor='middle' x='40' y='20' fill='currentColor' style='font-size:1em'>i</text>
-<text text-anchor='middle' x='48' y='4' fill='currentColor' style='font-size:1em'>a</text>
-<text text-anchor='middle' x='48' y='20' fill='currentColor' style='font-size:1em'>s</text>
-<text text-anchor='middle' x='56' y='4' fill='currentColor' style='font-size:1em'>n</text>
-<text text-anchor='middle' x='56' y='20' fill='currentColor' style='font-size:1em'>s</text>
-<text text-anchor='middle' x='64' y='4' fill='currentColor' style='font-size:1em'>d</text>
-<text text-anchor='middle' x='64' y='20' fill='currentColor' style='font-size:1em'>e</text>
-<text text-anchor='middle' x='72' y='20' fill='currentColor' style='font-size:1em'>t</text>
-<text text-anchor='middle' x='88' y='4' fill='currentColor' style='font-size:1em'>o</text>
-<text text-anchor='middle' x='88' y='20' fill='currentColor' style='font-size:1em'>.</text>
-<text text-anchor='middle' x='96' y='4' fill='currentColor' style='font-size:1em'>r</text>
-<text text-anchor='middle' x='96' y='20' fill='currentColor' style='font-size:1em'>P</text>
-<text text-anchor='middle' x='104' y='20' fill='currentColor' style='font-size:1em'>a</text>
-<text text-anchor='middle' x='112' y='4' fill='currentColor' style='font-size:1em'>(</text>
-<text text-anchor='middle' x='112' y='20' fill='currentColor' style='font-size:1em'>r</text>
-<text text-anchor='middle' x='120' y='4' fill='currentColor' style='font-size:1em'>i</text>
-<text text-anchor='middle' x='120' y='20' fill='currentColor' style='font-size:1em'>a</text>
-<text text-anchor='middle' x='128' y='4' fill='currentColor' style='font-size:1em'>s</text>
-<text text-anchor='middle' x='128' y='20' fill='currentColor' style='font-size:1em'>m</text>
-<text text-anchor='middle' x='136' y='4' fill='currentColor' style='font-size:1em'>s</text>
-<text text-anchor='middle' x='136' y='20' fill='currentColor' style='font-size:1em'>s</text>
-<text text-anchor='middle' x='144' y='4' fill='currentColor' style='font-size:1em'>e</text>
-<text text-anchor='middle' x='152' y='4' fill='currentColor' style='font-size:1em'>t</text>
-<text text-anchor='middle' x='152' y='20' fill='currentColor' style='font-size:1em'>"</text>
-<text text-anchor='middle' x='160' y='20' fill='currentColor' style='font-size:1em'>a</text>
-<text text-anchor='middle' x='168' y='4' fill='currentColor' style='font-size:1em'>.</text>
-<text text-anchor='middle' x='168' y='20' fill='currentColor' style='font-size:1em'>t</text>
-<text text-anchor='middle' x='176' y='4' fill='currentColor' style='font-size:1em'>P</text>
-<text text-anchor='middle' x='176' y='20' fill='currentColor' style='font-size:1em'>t</text>
-<text text-anchor='middle' x='184' y='4' fill='currentColor' style='font-size:1em'>a</text>
-<text text-anchor='middle' x='184' y='20' fill='currentColor' style='font-size:1em'>r</text>
-<text text-anchor='middle' x='192' y='4' fill='currentColor' style='font-size:1em'>r</text>
-<text text-anchor='middle' x='192' y='20' fill='currentColor' style='font-size:1em'>"</text>
-<text text-anchor='middle' x='200' y='4' fill='currentColor' style='font-size:1em'>a</text>
-<text text-anchor='middle' x='200' y='20' fill='currentColor' style='font-size:1em'>)</text>
-<text text-anchor='middle' x='208' y='4' fill='currentColor' style='font-size:1em'>m</text>
-<text text-anchor='middle' x='208' y='20' fill='currentColor' style='font-size:1em'>}</text>
-<text text-anchor='middle' x='216' y='4' fill='currentColor' style='font-size:1em'>s</text>
-<text text-anchor='middle' x='216' y='20' fill='currentColor' style='font-size:1em'>}</text>
-<text text-anchor='middle' x='232' y='4' fill='currentColor' style='font-size:1em'>"</text>
-<text text-anchor='middle' x='240' y='4' fill='currentColor' style='font-size:1em'>t</text>
-<text text-anchor='middle' x='248' y='4' fill='currentColor' style='font-size:1em'>i</text>
-<text text-anchor='middle' x='256' y='4' fill='currentColor' style='font-size:1em'>t</text>
-<text text-anchor='middle' x='264' y='4' fill='currentColor' style='font-size:1em'>l</text>
-<text text-anchor='middle' x='272' y='4' fill='currentColor' style='font-size:1em'>e</text>
-<text text-anchor='middle' x='280' y='4' fill='currentColor' style='font-size:1em'>"</text>
-<text text-anchor='middle' x='288' y='4' fill='currentColor' style='font-size:1em'>)</text>
-<text text-anchor='middle' x='304' y='4' fill='currentColor' style='font-size:1em'>(</text>
-<text text-anchor='middle' x='312' y='4' fill='currentColor' style='font-size:1em'>i</text>
-<text text-anchor='middle' x='320' y='4' fill='currentColor' style='font-size:1em'>s</text>
-<text text-anchor='middle' x='328' y='4' fill='currentColor' style='font-size:1em'>s</text>
-<text text-anchor='middle' x='336' y='4' fill='currentColor' style='font-size:1em'>e</text>
-<text text-anchor='middle' x='344' y='4' fill='currentColor' style='font-size:1em'>t</text>
-<text text-anchor='middle' x='360' y='4' fill='currentColor' style='font-size:1em'>.</text>
-<text text-anchor='middle' x='368' y='4' fill='currentColor' style='font-size:1em'>P</text>
-<text text-anchor='middle' x='376' y='4' fill='currentColor' style='font-size:1em'>a</text>
-<text text-anchor='middle' x='384' y='4' fill='currentColor' style='font-size:1em'>r</text>
-<text text-anchor='middle' x='392' y='4' fill='currentColor' style='font-size:1em'>a</text>
-<text text-anchor='middle' x='400' y='4' fill='currentColor' style='font-size:1em'>m</text>
-<text text-anchor='middle' x='408' y='4' fill='currentColor' style='font-size:1em'>s</text>
-<text text-anchor='middle' x='424' y='4' fill='currentColor' style='font-size:1em'>"</text>
-<text text-anchor='middle' x='432' y='4' fill='currentColor' style='font-size:1em'>c</text>
-<text text-anchor='middle' x='440' y='4' fill='currentColor' style='font-size:1em'>a</text>
-<text text-anchor='middle' x='448' y='4' fill='currentColor' style='font-size:1em'>p</text>
-<text text-anchor='middle' x='456' y='4' fill='currentColor' style='font-size:1em'>t</text>
-<text text-anchor='middle' x='464' y='4' fill='currentColor' style='font-size:1em'>i</text>
-<text text-anchor='middle' x='472' y='4' fill='currentColor' style='font-size:1em'>o</text>
-<text text-anchor='middle' x='480' y='4' fill='currentColor' style='font-size:1em'>n</text>
-<text text-anchor='middle' x='488' y='4' fill='currentColor' style='font-size:1em'>"</text>
-<text text-anchor='middle' x='496' y='4' fill='currentColor' style='font-size:1em'>)</text>
-<text text-anchor='middle' x='504' y='4' fill='currentColor' style='font-size:1em'>)</text>
-</g>
-
-    </svg>
-  
-</div>
-<p><strong>Exemple 4: With</strong></p>
-<p>Une manière alternative d&rsquo;écrire un &ldquo;if&rdquo; et de référencer cette même valeur est
-d&rsquo;utiliser &ldquo;with&rdquo;. Cela permet de remplacer le contexte <code>.</code> par cet valeur et
-saute le bloc si la variable est absente.</p>
-<p>Le premier exemple peut être simplifié à ceci :</p>
+<p><strong>Example 3: And &amp; Or</strong></p>
+<pre><code>{{ if and (or (isset .Params &quot;title&quot;) (isset .Params &quot;caption&quot;)) (isset .Params &quot;attr&quot;)}}
+</code></pre>
+<p><strong>Example 4: With</strong></p>
+<p>An alternative way of writing &ldquo;if&rdquo; and then referencing the same value
+is to use &ldquo;with&rdquo; instead. With rebinds the context <code>.</code> within its scope,
+and skips the block if the variable is absent.</p>
+<p>The first example above could be simplified as:</p>
 <pre><code>{{ with .Params.title }}&lt;h4&gt;{{ . }}&lt;/h4&gt;{{ end }}
 </code></pre>
-<p><strong>Exemple 5: If -&gt; Else If</strong></p>
+<p><strong>Example 5: If -&gt; Else If</strong></p>
 <pre><code>{{ if isset .Params &quot;alt&quot; }}
     {{ index .Params &quot;alt&quot; }}
 {{ else if isset .Params &quot;caption&quot; }}
     {{ index .Params &quot;caption&quot; }}
 {{ end }}
 </code></pre>
-<h2 id="pipes"><em>Pipes</em></h2>
-<p>L&rsquo;un des composants le plus puissant de Go templates est la capacité d&rsquo;empiler
-les action l&rsquo;une après l&rsquo;autre. Cela est fait en utilisant les <em>pipes</em>.
-Empruntés aux <em>pipes</em> unix, le concept est simple. Chaque sortie de <em>pipeline</em>
-devient l&rsquo;entrée du <em>pipe</em> suivant.</p>
-<p>À cause de la syntaxe très simple de Go templates, le <em>pipe</em> est essentiel pour
-être capable d&rsquo;enchainer les appels de fonctions. Une limitation des <em>pipes</em>
-est qu&rsquo;il ne peuvent fonctionner seulement avec une seule valeur et cette valeur
-devient le dernier paramètre du prochain <em>pipeline</em>.</p>
-<p>Quelques exemples simple devrait vous aider à comprendre comment utiliser les
-<em>pipes</em>.</p>
-<p><strong>Exemple 1 :</strong></p>
+<h2 id="pipes">Pipes</h2>
+<p>One of the most powerful components of Go templates is the ability to
+stack actions one after another. This is done by using pipes. Borrowed
+from unix pipes, the concept is simple, each pipeline&rsquo;s output becomes the
+input of the following pipe.</p>
+<p>Because of the very simple syntax of Go templates, the pipe is essential
+to being able to chain together function calls. One limitation of the
+pipes is that they only can work with a single value and that value
+becomes the last parameter of the next pipeline.</p>
+<p>A few simple examples should help convey how to use the pipe.</p>
+<p><strong>Example 1 :</strong></p>
 <pre><code>{{ if eq 1 1 }} Same {{ end }}
 </code></pre>
-<p>est identique à</p>
+<p>is the same as</p>
 <pre><code>{{ eq 1 1 | if }} Same {{ end }}
 </code></pre>
-<p>Il semble étrange de placer le <em>if</em> à la fin, mais il fournit une bonne
-illustration de la façon d&rsquo;utiliser les tuyaux.</p>
-<p><strong>Exemple 2 :</strong></p>
+<p>It does look odd to place the if at the end, but it does provide a good
+illustration of how to use the pipes.</p>
+<p><strong>Example 2 :</strong></p>
 <pre><code>{{ index .Params &quot;disqus_url&quot; | html }}
 </code></pre>
-<p>Accès au paramètre de page nommé &ldquo;disqus_url&rdquo; et échappement du HTML</p>
-<p><strong>Exemple 3 :</strong></p>
-
-
-
-<div class="goat svg-container ">
-  
-    <svg
-      xmlns="http://www.w3.org/2000/svg"
-      font-family="Menlo,Lucida Console,monospace"
-      
-        viewBox="0 0 512 73"
-      >
-      <g transform='translate(8,16)'>
-<text text-anchor='middle' x='0' y='4' fill='currentColor' style='font-size:1em'>{</text>
-<text text-anchor='middle' x='0' y='36' fill='currentColor' style='font-size:1em'>S</text>
-<text text-anchor='middle' x='0' y='52' fill='currentColor' style='font-size:1em'>{</text>
-<text text-anchor='middle' x='8' y='4' fill='currentColor' style='font-size:1em'>{</text>
-<text text-anchor='middle' x='8' y='36' fill='currentColor' style='font-size:1em'>t</text>
-<text text-anchor='middle' x='8' y='52' fill='currentColor' style='font-size:1em'>{</text>
-<text text-anchor='middle' x='16' y='36' fill='currentColor' style='font-size:1em'>u</text>
-<text text-anchor='middle' x='24' y='4' fill='currentColor' style='font-size:1em'>i</text>
-<text text-anchor='middle' x='24' y='36' fill='currentColor' style='font-size:1em'>f</text>
-<text text-anchor='middle' x='24' y='52' fill='currentColor' style='font-size:1em'>e</text>
-<text text-anchor='middle' x='32' y='4' fill='currentColor' style='font-size:1em'>f</text>
-<text text-anchor='middle' x='32' y='20' fill='currentColor' style='font-size:1em'>(</text>
-<text text-anchor='middle' x='32' y='36' fill='currentColor' style='font-size:1em'>f</text>
-<text text-anchor='middle' x='32' y='52' fill='currentColor' style='font-size:1em'>n</text>
-<text text-anchor='middle' x='40' y='20' fill='currentColor' style='font-size:1em'>i</text>
-<text text-anchor='middle' x='40' y='52' fill='currentColor' style='font-size:1em'>d</text>
-<text text-anchor='middle' x='48' y='4' fill='currentColor' style='font-size:1em'>o</text>
-<text text-anchor='middle' x='48' y='20' fill='currentColor' style='font-size:1em'>s</text>
-<text text-anchor='middle' x='48' y='36' fill='currentColor' style='font-size:1em'>H</text>
-<text text-anchor='middle' x='56' y='4' fill='currentColor' style='font-size:1em'>r</text>
-<text text-anchor='middle' x='56' y='20' fill='currentColor' style='font-size:1em'>s</text>
-<text text-anchor='middle' x='56' y='36' fill='currentColor' style='font-size:1em'>e</text>
-<text text-anchor='middle' x='56' y='52' fill='currentColor' style='font-size:1em'>}</text>
-<text text-anchor='middle' x='64' y='20' fill='currentColor' style='font-size:1em'>e</text>
-<text text-anchor='middle' x='64' y='36' fill='currentColor' style='font-size:1em'>r</text>
-<text text-anchor='middle' x='64' y='52' fill='currentColor' style='font-size:1em'>}</text>
-<text text-anchor='middle' x='72' y='20' fill='currentColor' style='font-size:1em'>t</text>
-<text text-anchor='middle' x='72' y='36' fill='currentColor' style='font-size:1em'>e</text>
-<text text-anchor='middle' x='80' y='4' fill='currentColor' style='font-size:1em'>o</text>
-<text text-anchor='middle' x='88' y='4' fill='currentColor' style='font-size:1em'>r</text>
-<text text-anchor='middle' x='88' y='20' fill='currentColor' style='font-size:1em'>.</text>
-<text text-anchor='middle' x='96' y='20' fill='currentColor' style='font-size:1em'>P</text>
-<text text-anchor='middle' x='104' y='4' fill='currentColor' style='font-size:1em'>(</text>
-<text text-anchor='middle' x='104' y='20' fill='currentColor' style='font-size:1em'>a</text>
-<text text-anchor='middle' x='112' y='4' fill='currentColor' style='font-size:1em'>i</text>
-<text text-anchor='middle' x='112' y='20' fill='currentColor' style='font-size:1em'>r</text>
-<text text-anchor='middle' x='120' y='4' fill='currentColor' style='font-size:1em'>s</text>
-<text text-anchor='middle' x='120' y='20' fill='currentColor' style='font-size:1em'>a</text>
-<text text-anchor='middle' x='128' y='4' fill='currentColor' style='font-size:1em'>s</text>
-<text text-anchor='middle' x='128' y='20' fill='currentColor' style='font-size:1em'>m</text>
-<text text-anchor='middle' x='136' y='4' fill='currentColor' style='font-size:1em'>e</text>
-<text text-anchor='middle' x='136' y='20' fill='currentColor' style='font-size:1em'>s</text>
-<text text-anchor='middle' x='144' y='4' fill='currentColor' style='font-size:1em'>t</text>
-<text text-anchor='middle' x='152' y='20' fill='currentColor' style='font-size:1em'>"</text>
-<text text-anchor='middle' x='160' y='4' fill='currentColor' style='font-size:1em'>.</text>
-<text text-anchor='middle' x='160' y='20' fill='currentColor' style='font-size:1em'>a</text>
-<text text-anchor='middle' x='168' y='4' fill='currentColor' style='font-size:1em'>P</text>
-<text text-anchor='middle' x='168' y='20' fill='currentColor' style='font-size:1em'>t</text>
-<text text-anchor='middle' x='176' y='4' fill='currentColor' style='font-size:1em'>a</text>
-<text text-anchor='middle' x='176' y='20' fill='currentColor' style='font-size:1em'>t</text>
-<text text-anchor='middle' x='184' y='4' fill='currentColor' style='font-size:1em'>r</text>
-<text text-anchor='middle' x='184' y='20' fill='currentColor' style='font-size:1em'>r</text>
-<text text-anchor='middle' x='192' y='4' fill='currentColor' style='font-size:1em'>a</text>
-<text text-anchor='middle' x='192' y='20' fill='currentColor' style='font-size:1em'>"</text>
-<text text-anchor='middle' x='200' y='4' fill='currentColor' style='font-size:1em'>m</text>
-<text text-anchor='middle' x='200' y='20' fill='currentColor' style='font-size:1em'>)</text>
-<text text-anchor='middle' x='208' y='4' fill='currentColor' style='font-size:1em'>s</text>
-<text text-anchor='middle' x='208' y='20' fill='currentColor' style='font-size:1em'>}</text>
-<text text-anchor='middle' x='216' y='20' fill='currentColor' style='font-size:1em'>}</text>
-<text text-anchor='middle' x='224' y='4' fill='currentColor' style='font-size:1em'>"</text>
-<text text-anchor='middle' x='232' y='4' fill='currentColor' style='font-size:1em'>t</text>
-<text text-anchor='middle' x='240' y='4' fill='currentColor' style='font-size:1em'>i</text>
-<text text-anchor='middle' x='248' y='4' fill='currentColor' style='font-size:1em'>t</text>
-<text text-anchor='middle' x='256' y='4' fill='currentColor' style='font-size:1em'>l</text>
-<text text-anchor='middle' x='264' y='4' fill='currentColor' style='font-size:1em'>e</text>
-<text text-anchor='middle' x='272' y='4' fill='currentColor' style='font-size:1em'>"</text>
-<text text-anchor='middle' x='280' y='4' fill='currentColor' style='font-size:1em'>)</text>
-<text text-anchor='middle' x='296' y='4' fill='currentColor' style='font-size:1em'>(</text>
-<text text-anchor='middle' x='304' y='4' fill='currentColor' style='font-size:1em'>i</text>
-<text text-anchor='middle' x='312' y='4' fill='currentColor' style='font-size:1em'>s</text>
-<text text-anchor='middle' x='320' y='4' fill='currentColor' style='font-size:1em'>s</text>
-<text text-anchor='middle' x='328' y='4' fill='currentColor' style='font-size:1em'>e</text>
-<text text-anchor='middle' x='336' y='4' fill='currentColor' style='font-size:1em'>t</text>
-<text text-anchor='middle' x='352' y='4' fill='currentColor' style='font-size:1em'>.</text>
-<text text-anchor='middle' x='360' y='4' fill='currentColor' style='font-size:1em'>P</text>
-<text text-anchor='middle' x='368' y='4' fill='currentColor' style='font-size:1em'>a</text>
-<text text-anchor='middle' x='376' y='4' fill='currentColor' style='font-size:1em'>r</text>
-<text text-anchor='middle' x='384' y='4' fill='currentColor' style='font-size:1em'>a</text>
-<text text-anchor='middle' x='392' y='4' fill='currentColor' style='font-size:1em'>m</text>
-<text text-anchor='middle' x='400' y='4' fill='currentColor' style='font-size:1em'>s</text>
-<text text-anchor='middle' x='416' y='4' fill='currentColor' style='font-size:1em'>"</text>
-<text text-anchor='middle' x='424' y='4' fill='currentColor' style='font-size:1em'>c</text>
-<text text-anchor='middle' x='432' y='4' fill='currentColor' style='font-size:1em'>a</text>
-<text text-anchor='middle' x='440' y='4' fill='currentColor' style='font-size:1em'>p</text>
-<text text-anchor='middle' x='448' y='4' fill='currentColor' style='font-size:1em'>t</text>
-<text text-anchor='middle' x='456' y='4' fill='currentColor' style='font-size:1em'>i</text>
-<text text-anchor='middle' x='464' y='4' fill='currentColor' style='font-size:1em'>o</text>
-<text text-anchor='middle' x='472' y='4' fill='currentColor' style='font-size:1em'>n</text>
-<text text-anchor='middle' x='480' y='4' fill='currentColor' style='font-size:1em'>"</text>
-<text text-anchor='middle' x='488' y='4' fill='currentColor' style='font-size:1em'>)</text>
-<text text-anchor='middle' x='496' y='4' fill='currentColor' style='font-size:1em'>)</text>
-</g>
-
-    </svg>
-  
-</div>
-<p>Peut être réécrit en</p>
-
-
-
-<div class="goat svg-container ">
-  
-    <svg
-      xmlns="http://www.w3.org/2000/svg"
-      font-family="Menlo,Lucida Console,monospace"
-      
-        viewBox="0 0 456 73"
-      >
-      <g transform='translate(8,16)'>
-<path d='M 224,0 L 224,16' fill='none' stroke='currentColor'></path>
-<text text-anchor='middle' x='0' y='4' fill='currentColor' style='font-size:1em'>{</text>
-<text text-anchor='middle' x='0' y='36' fill='currentColor' style='font-size:1em'>S</text>
-<text text-anchor='middle' x='0' y='52' fill='currentColor' style='font-size:1em'>{</text>
-<text text-anchor='middle' x='8' y='4' fill='currentColor' style='font-size:1em'>{</text>
-<text text-anchor='middle' x='8' y='36' fill='currentColor' style='font-size:1em'>t</text>
-<text text-anchor='middle' x='8' y='52' fill='currentColor' style='font-size:1em'>{</text>
-<text text-anchor='middle' x='16' y='36' fill='currentColor' style='font-size:1em'>u</text>
-<text text-anchor='middle' x='24' y='36' fill='currentColor' style='font-size:1em'>f</text>
-<text text-anchor='middle' x='24' y='52' fill='currentColor' style='font-size:1em'>e</text>
-<text text-anchor='middle' x='32' y='4' fill='currentColor' style='font-size:1em'>i</text>
-<text text-anchor='middle' x='32' y='20' fill='currentColor' style='font-size:1em'>o</text>
-<text text-anchor='middle' x='32' y='36' fill='currentColor' style='font-size:1em'>f</text>
-<text text-anchor='middle' x='32' y='52' fill='currentColor' style='font-size:1em'>n</text>
-<text text-anchor='middle' x='40' y='4' fill='currentColor' style='font-size:1em'>s</text>
-<text text-anchor='middle' x='40' y='20' fill='currentColor' style='font-size:1em'>r</text>
-<text text-anchor='middle' x='40' y='52' fill='currentColor' style='font-size:1em'>d</text>
-<text text-anchor='middle' x='48' y='4' fill='currentColor' style='font-size:1em'>s</text>
-<text text-anchor='middle' x='48' y='36' fill='currentColor' style='font-size:1em'>H</text>
-<text text-anchor='middle' x='56' y='4' fill='currentColor' style='font-size:1em'>e</text>
-<text text-anchor='middle' x='56' y='20' fill='currentColor' style='font-size:1em'>i</text>
-<text text-anchor='middle' x='56' y='36' fill='currentColor' style='font-size:1em'>e</text>
-<text text-anchor='middle' x='56' y='52' fill='currentColor' style='font-size:1em'>}</text>
-<text text-anchor='middle' x='64' y='4' fill='currentColor' style='font-size:1em'>t</text>
-<text text-anchor='middle' x='64' y='20' fill='currentColor' style='font-size:1em'>s</text>
-<text text-anchor='middle' x='64' y='36' fill='currentColor' style='font-size:1em'>r</text>
-<text text-anchor='middle' x='64' y='52' fill='currentColor' style='font-size:1em'>}</text>
-<text text-anchor='middle' x='72' y='20' fill='currentColor' style='font-size:1em'>s</text>
-<text text-anchor='middle' x='72' y='36' fill='currentColor' style='font-size:1em'>e</text>
-<text text-anchor='middle' x='80' y='4' fill='currentColor' style='font-size:1em'>.</text>
-<text text-anchor='middle' x='80' y='20' fill='currentColor' style='font-size:1em'>e</text>
-<text text-anchor='middle' x='88' y='4' fill='currentColor' style='font-size:1em'>P</text>
-<text text-anchor='middle' x='88' y='20' fill='currentColor' style='font-size:1em'>t</text>
-<text text-anchor='middle' x='96' y='4' fill='currentColor' style='font-size:1em'>a</text>
-<text text-anchor='middle' x='104' y='4' fill='currentColor' style='font-size:1em'>r</text>
-<text text-anchor='middle' x='104' y='20' fill='currentColor' style='font-size:1em'>.</text>
-<text text-anchor='middle' x='112' y='4' fill='currentColor' style='font-size:1em'>a</text>
-<text text-anchor='middle' x='112' y='20' fill='currentColor' style='font-size:1em'>P</text>
-<text text-anchor='middle' x='120' y='4' fill='currentColor' style='font-size:1em'>m</text>
-<text text-anchor='middle' x='120' y='20' fill='currentColor' style='font-size:1em'>a</text>
-<text text-anchor='middle' x='128' y='4' fill='currentColor' style='font-size:1em'>s</text>
-<text text-anchor='middle' x='128' y='20' fill='currentColor' style='font-size:1em'>r</text>
-<text text-anchor='middle' x='136' y='20' fill='currentColor' style='font-size:1em'>a</text>
-<text text-anchor='middle' x='144' y='4' fill='currentColor' style='font-size:1em'>"</text>
-<text text-anchor='middle' x='144' y='20' fill='currentColor' style='font-size:1em'>m</text>
-<text text-anchor='middle' x='152' y='4' fill='currentColor' style='font-size:1em'>c</text>
-<text text-anchor='middle' x='152' y='20' fill='currentColor' style='font-size:1em'>s</text>
-<text text-anchor='middle' x='160' y='4' fill='currentColor' style='font-size:1em'>a</text>
-<text text-anchor='middle' x='168' y='4' fill='currentColor' style='font-size:1em'>p</text>
-<text text-anchor='middle' x='168' y='20' fill='currentColor' style='font-size:1em'>"</text>
-<text text-anchor='middle' x='176' y='4' fill='currentColor' style='font-size:1em'>t</text>
-<text text-anchor='middle' x='176' y='20' fill='currentColor' style='font-size:1em'>a</text>
-<text text-anchor='middle' x='184' y='4' fill='currentColor' style='font-size:1em'>i</text>
-<text text-anchor='middle' x='184' y='20' fill='currentColor' style='font-size:1em'>t</text>
-<text text-anchor='middle' x='192' y='4' fill='currentColor' style='font-size:1em'>o</text>
-<text text-anchor='middle' x='192' y='20' fill='currentColor' style='font-size:1em'>t</text>
-<text text-anchor='middle' x='200' y='4' fill='currentColor' style='font-size:1em'>n</text>
-<text text-anchor='middle' x='200' y='20' fill='currentColor' style='font-size:1em'>r</text>
-<text text-anchor='middle' x='208' y='4' fill='currentColor' style='font-size:1em'>"</text>
-<text text-anchor='middle' x='208' y='20' fill='currentColor' style='font-size:1em'>"</text>
-<text text-anchor='middle' x='240' y='4' fill='currentColor' style='font-size:1em'>o</text>
-<text text-anchor='middle' x='240' y='20' fill='currentColor' style='font-size:1em'>i</text>
-<text text-anchor='middle' x='248' y='4' fill='currentColor' style='font-size:1em'>r</text>
-<text text-anchor='middle' x='248' y='20' fill='currentColor' style='font-size:1em'>f</text>
-<text text-anchor='middle' x='264' y='4' fill='currentColor' style='font-size:1em'>i</text>
-<text text-anchor='middle' x='264' y='20' fill='currentColor' style='font-size:1em'>}</text>
-<text text-anchor='middle' x='272' y='4' fill='currentColor' style='font-size:1em'>s</text>
-<text text-anchor='middle' x='272' y='20' fill='currentColor' style='font-size:1em'>}</text>
-<text text-anchor='middle' x='280' y='4' fill='currentColor' style='font-size:1em'>s</text>
-<text text-anchor='middle' x='288' y='4' fill='currentColor' style='font-size:1em'>e</text>
-<text text-anchor='middle' x='296' y='4' fill='currentColor' style='font-size:1em'>t</text>
-<text text-anchor='middle' x='312' y='4' fill='currentColor' style='font-size:1em'>.</text>
-<text text-anchor='middle' x='320' y='4' fill='currentColor' style='font-size:1em'>P</text>
-<text text-anchor='middle' x='328' y='4' fill='currentColor' style='font-size:1em'>a</text>
-<text text-anchor='middle' x='336' y='4' fill='currentColor' style='font-size:1em'>r</text>
-<text text-anchor='middle' x='344' y='4' fill='currentColor' style='font-size:1em'>a</text>
-<text text-anchor='middle' x='352' y='4' fill='currentColor' style='font-size:1em'>m</text>
-<text text-anchor='middle' x='360' y='4' fill='currentColor' style='font-size:1em'>s</text>
-<text text-anchor='middle' x='376' y='4' fill='currentColor' style='font-size:1em'>"</text>
-<text text-anchor='middle' x='384' y='4' fill='currentColor' style='font-size:1em'>t</text>
-<text text-anchor='middle' x='392' y='4' fill='currentColor' style='font-size:1em'>i</text>
-<text text-anchor='middle' x='400' y='4' fill='currentColor' style='font-size:1em'>t</text>
-<text text-anchor='middle' x='408' y='4' fill='currentColor' style='font-size:1em'>l</text>
-<text text-anchor='middle' x='416' y='4' fill='currentColor' style='font-size:1em'>e</text>
-<text text-anchor='middle' x='424' y='4' fill='currentColor' style='font-size:1em'>"</text>
-<text text-anchor='middle' x='440' y='4' fill='currentColor' style='font-size:1em'>|</text>
-</g>
-
-    </svg>
-  
-</div>
-<h2 id="contexte-alias-le-point">Contexte (alias. le point)</h2>
-<p>Le concept le plus facilement négligé pour comprendre les modèles go est que
-{{ . }} fait toujours référence au contexte actuel. Dans le plus haut niveau de
-votre modèle, ce sera l&rsquo;ensemble des données mis à votre disposition. Dans une
-itération, ce sera la valeur de l&rsquo;élément actuel. Enfin, dans une boucle, le
-contexte change. . ne fera plus référence aux données disponibles dans la page
-entière. Si vous avez besoin y d&rsquo;accèder depuis l&rsquo;intérieur d&rsquo;une boucle, il est
-judicieux d&rsquo;y définir comme variable au lieu de dépendre du contexte.</p>
-<p><strong>Exemple:</strong></p>
-
-
-
-<div class="goat svg-container ">
-  
-    <svg
-      xmlns="http://www.w3.org/2000/svg"
-      font-family="Menlo,Lucida Console,monospace"
-      
-        viewBox="0 0 424 89"
-      >
-      <g transform='translate(8,16)'>
-<path d='M 256,48 L 264,32' fill='none' stroke='currentColor'></path>
-<polygon points='256.000000,48.000000 244.000000,42.400002 244.000000,53.599998' fill='currentColor' transform='rotate(180.000000, 248.000000, 48.000000)'></polygon>
-<text text-anchor='middle' x='0' y='4' fill='currentColor' style='font-size:1em'>{</text>
-<text text-anchor='middle' x='0' y='20' fill='currentColor' style='font-size:1em'>{</text>
-<text text-anchor='middle' x='0' y='36' fill='currentColor' style='font-size:1em'>&lt;</text>
-<text text-anchor='middle' x='0' y='68' fill='currentColor' style='font-size:1em'>{</text>
-<text text-anchor='middle' x='8' y='4' fill='currentColor' style='font-size:1em'>{</text>
-<text text-anchor='middle' x='8' y='20' fill='currentColor' style='font-size:1em'>{</text>
-<text text-anchor='middle' x='8' y='36' fill='currentColor' style='font-size:1em'>l</text>
-<text text-anchor='middle' x='8' y='68' fill='currentColor' style='font-size:1em'>{</text>
-<text text-anchor='middle' x='16' y='36' fill='currentColor' style='font-size:1em'>i</text>
-<text text-anchor='middle' x='24' y='4' fill='currentColor' style='font-size:1em'>$</text>
-<text text-anchor='middle' x='24' y='20' fill='currentColor' style='font-size:1em'>r</text>
-<text text-anchor='middle' x='24' y='36' fill='currentColor' style='font-size:1em'>&gt;</text>
-<text text-anchor='middle' x='24' y='68' fill='currentColor' style='font-size:1em'>e</text>
-<text text-anchor='middle' x='32' y='4' fill='currentColor' style='font-size:1em'>t</text>
-<text text-anchor='middle' x='32' y='20' fill='currentColor' style='font-size:1em'>a</text>
-<text text-anchor='middle' x='32' y='52' fill='currentColor' style='font-size:1em'>{</text>
-<text text-anchor='middle' x='32' y='68' fill='currentColor' style='font-size:1em'>n</text>
-<text text-anchor='middle' x='40' y='4' fill='currentColor' style='font-size:1em'>i</text>
-<text text-anchor='middle' x='40' y='20' fill='currentColor' style='font-size:1em'>n</text>
-<text text-anchor='middle' x='40' y='36' fill='currentColor' style='font-size:1em'>&lt;</text>
-<text text-anchor='middle' x='40' y='52' fill='currentColor' style='font-size:1em'>{</text>
-<text text-anchor='middle' x='40' y='68' fill='currentColor' style='font-size:1em'>d</text>
-<text text-anchor='middle' x='48' y='4' fill='currentColor' style='font-size:1em'>t</text>
-<text text-anchor='middle' x='48' y='20' fill='currentColor' style='font-size:1em'>g</text>
-<text text-anchor='middle' x='48' y='36' fill='currentColor' style='font-size:1em'>a</text>
-<text text-anchor='middle' x='56' y='4' fill='currentColor' style='font-size:1em'>l</text>
-<text text-anchor='middle' x='56' y='20' fill='currentColor' style='font-size:1em'>e</text>
-<text text-anchor='middle' x='56' y='52' fill='currentColor' style='font-size:1em'>.</text>
-<text text-anchor='middle' x='56' y='68' fill='currentColor' style='font-size:1em'>}</text>
-<text text-anchor='middle' x='64' y='4' fill='currentColor' style='font-size:1em'>e</text>
-<text text-anchor='middle' x='64' y='36' fill='currentColor' style='font-size:1em'>h</text>
-<text text-anchor='middle' x='64' y='68' fill='currentColor' style='font-size:1em'>}</text>
-<text text-anchor='middle' x='72' y='20' fill='currentColor' style='font-size:1em'>.</text>
-<text text-anchor='middle' x='72' y='36' fill='currentColor' style='font-size:1em'>r</text>
-<text text-anchor='middle' x='72' y='52' fill='currentColor' style='font-size:1em'>}</text>
-<text text-anchor='middle' x='80' y='4' fill='currentColor' style='font-size:1em'>:</text>
-<text text-anchor='middle' x='80' y='20' fill='currentColor' style='font-size:1em'>P</text>
-<text text-anchor='middle' x='80' y='36' fill='currentColor' style='font-size:1em'>e</text>
-<text text-anchor='middle' x='80' y='52' fill='currentColor' style='font-size:1em'>}</text>
-<text text-anchor='middle' x='88' y='4' fill='currentColor' style='font-size:1em'>=</text>
-<text text-anchor='middle' x='88' y='20' fill='currentColor' style='font-size:1em'>a</text>
-<text text-anchor='middle' x='88' y='36' fill='currentColor' style='font-size:1em'>f</text>
-<text text-anchor='middle' x='88' y='52' fill='currentColor' style='font-size:1em'>&lt;</text>
-<text text-anchor='middle' x='96' y='20' fill='currentColor' style='font-size:1em'>r</text>
-<text text-anchor='middle' x='96' y='36' fill='currentColor' style='font-size:1em'>=</text>
-<text text-anchor='middle' x='96' y='52' fill='currentColor' style='font-size:1em'>/</text>
-<text text-anchor='middle' x='104' y='4' fill='currentColor' style='font-size:1em'>.</text>
-<text text-anchor='middle' x='104' y='20' fill='currentColor' style='font-size:1em'>a</text>
-<text text-anchor='middle' x='104' y='36' fill='currentColor' style='font-size:1em'>"</text>
-<text text-anchor='middle' x='104' y='52' fill='currentColor' style='font-size:1em'>a</text>
-<text text-anchor='middle' x='112' y='4' fill='currentColor' style='font-size:1em'>S</text>
-<text text-anchor='middle' x='112' y='20' fill='currentColor' style='font-size:1em'>m</text>
-<text text-anchor='middle' x='112' y='36' fill='currentColor' style='font-size:1em'>{</text>
-<text text-anchor='middle' x='112' y='52' fill='currentColor' style='font-size:1em'>&gt;</text>
-<text text-anchor='middle' x='120' y='4' fill='currentColor' style='font-size:1em'>i</text>
-<text text-anchor='middle' x='120' y='20' fill='currentColor' style='font-size:1em'>s</text>
-<text text-anchor='middle' x='120' y='36' fill='currentColor' style='font-size:1em'>{</text>
-<text text-anchor='middle' x='128' y='4' fill='currentColor' style='font-size:1em'>t</text>
-<text text-anchor='middle' x='128' y='20' fill='currentColor' style='font-size:1em'>.</text>
-<text text-anchor='middle' x='128' y='52' fill='currentColor' style='font-size:1em'>-</text>
-<text text-anchor='middle' x='136' y='4' fill='currentColor' style='font-size:1em'>e</text>
-<text text-anchor='middle' x='136' y='20' fill='currentColor' style='font-size:1em'>t</text>
-<text text-anchor='middle' x='136' y='36' fill='currentColor' style='font-size:1em'>$</text>
-<text text-anchor='middle' x='144' y='4' fill='currentColor' style='font-size:1em'>.</text>
-<text text-anchor='middle' x='144' y='20' fill='currentColor' style='font-size:1em'>a</text>
-<text text-anchor='middle' x='144' y='36' fill='currentColor' style='font-size:1em'>b</text>
-<text text-anchor='middle' x='144' y='52' fill='currentColor' style='font-size:1em'>{</text>
-<text text-anchor='middle' x='152' y='4' fill='currentColor' style='font-size:1em'>T</text>
-<text text-anchor='middle' x='152' y='20' fill='currentColor' style='font-size:1em'>g</text>
-<text text-anchor='middle' x='152' y='36' fill='currentColor' style='font-size:1em'>a</text>
-<text text-anchor='middle' x='152' y='52' fill='currentColor' style='font-size:1em'>{</text>
-<text text-anchor='middle' x='160' y='4' fill='currentColor' style='font-size:1em'>i</text>
-<text text-anchor='middle' x='160' y='20' fill='currentColor' style='font-size:1em'>s</text>
-<text text-anchor='middle' x='160' y='36' fill='currentColor' style='font-size:1em'>s</text>
-<text text-anchor='middle' x='168' y='4' fill='currentColor' style='font-size:1em'>t</text>
-<text text-anchor='middle' x='168' y='36' fill='currentColor' style='font-size:1em'>e</text>
-<text text-anchor='middle' x='168' y='52' fill='currentColor' style='font-size:1em'>$</text>
-<text text-anchor='middle' x='176' y='4' fill='currentColor' style='font-size:1em'>l</text>
-<text text-anchor='middle' x='176' y='20' fill='currentColor' style='font-size:1em'>}</text>
-<text text-anchor='middle' x='176' y='36' fill='currentColor' style='font-size:1em'>u</text>
-<text text-anchor='middle' x='176' y='52' fill='currentColor' style='font-size:1em'>t</text>
-<text text-anchor='middle' x='184' y='4' fill='currentColor' style='font-size:1em'>e</text>
-<text text-anchor='middle' x='184' y='20' fill='currentColor' style='font-size:1em'>}</text>
-<text text-anchor='middle' x='184' y='36' fill='currentColor' style='font-size:1em'>r</text>
-<text text-anchor='middle' x='184' y='52' fill='currentColor' style='font-size:1em'>i</text>
-<text text-anchor='middle' x='192' y='36' fill='currentColor' style='font-size:1em'>l</text>
-<text text-anchor='middle' x='192' y='52' fill='currentColor' style='font-size:1em'>t</text>
-<text text-anchor='middle' x='200' y='4' fill='currentColor' style='font-size:1em'>}</text>
-<text text-anchor='middle' x='200' y='52' fill='currentColor' style='font-size:1em'>l</text>
-<text text-anchor='middle' x='208' y='4' fill='currentColor' style='font-size:1em'>}</text>
-<text text-anchor='middle' x='208' y='36' fill='currentColor' style='font-size:1em'>}</text>
-<text text-anchor='middle' x='208' y='52' fill='currentColor' style='font-size:1em'>e</text>
-<text text-anchor='middle' x='216' y='36' fill='currentColor' style='font-size:1em'>}</text>
-<text text-anchor='middle' x='224' y='36' fill='currentColor' style='font-size:1em'>/</text>
-<text text-anchor='middle' x='224' y='52' fill='currentColor' style='font-size:1em'>}</text>
-<text text-anchor='middle' x='232' y='36' fill='currentColor' style='font-size:1em'>t</text>
-<text text-anchor='middle' x='232' y='52' fill='currentColor' style='font-size:1em'>}</text>
-<text text-anchor='middle' x='240' y='36' fill='currentColor' style='font-size:1em'>a</text>
-<text text-anchor='middle' x='248' y='36' fill='currentColor' style='font-size:1em'>g</text>
-<text text-anchor='middle' x='256' y='36' fill='currentColor' style='font-size:1em'>s</text>
-<text text-anchor='middle' x='264' y='52' fill='currentColor' style='font-size:1em'>l</text>
-<text text-anchor='middle' x='272' y='36' fill='currentColor' style='font-size:1em'>{</text>
-<text text-anchor='middle' x='272' y='52' fill='currentColor' style='font-size:1em'>i</text>
-<text text-anchor='middle' x='280' y='36' fill='currentColor' style='font-size:1em'>{</text>
-<text text-anchor='middle' x='280' y='52' fill='currentColor' style='font-size:1em'>&gt;</text>
-<text text-anchor='middle' x='296' y='36' fill='currentColor' style='font-size:1em'>.</text>
-<text text-anchor='middle' x='312' y='36' fill='currentColor' style='font-size:1em'>|</text>
-<text text-anchor='middle' x='328' y='36' fill='currentColor' style='font-size:1em'>u</text>
-<text text-anchor='middle' x='336' y='36' fill='currentColor' style='font-size:1em'>r</text>
-<text text-anchor='middle' x='344' y='36' fill='currentColor' style='font-size:1em'>l</text>
-<text text-anchor='middle' x='352' y='36' fill='currentColor' style='font-size:1em'>i</text>
-<text text-anchor='middle' x='360' y='36' fill='currentColor' style='font-size:1em'>z</text>
-<text text-anchor='middle' x='368' y='36' fill='currentColor' style='font-size:1em'>e</text>
-<text text-anchor='middle' x='384' y='36' fill='currentColor' style='font-size:1em'>}</text>
-<text text-anchor='middle' x='392' y='36' fill='currentColor' style='font-size:1em'>}</text>
-<text text-anchor='middle' x='400' y='36' fill='currentColor' style='font-size:1em'>"</text>
-<text text-anchor='middle' x='408' y='36' fill='currentColor' style='font-size:1em'>&gt;</text>
-</g>
-
-    </svg>
-  
-</div>
-<p>Notez que, une fois que nous sommes entrés dans la boucle, la valeur de
-{{ . }} a changée. Nous avons défini une variable en dehors de la boucle, afin
-d&rsquo;y avoir accès dans la boucle.</p>
-<h1 id="les-paramètres-dhugo">Les Paramètres d&rsquo;Hugo</h1>
-<p>Hugo fournit l&rsquo;option de passer des valeurs au modèle depuis la configuration du
-site, ou depuis les métadonnées de chaque partie du contenu. Vous pouvez définir
-n&rsquo;importe quelle valeur de n&rsquo;importe quel type (supporté par votre section
-liminaire / format de configuration) et les utiliser comme vous le souhaitez
-dans votre modèle.</p>
-<h2 id="utiliser-les-paramètres-de-contenu-page">Utiliser les paramètres de contenu (page)</h2>
-<p>Dans chaque partie du contenu, vous pouvez fournir des variables pour être
-utilisées par le modèle. Cela se passe dans la
-<a href="/content/front-matter">section liminaire</a>.</p>
-<p>Un exemple de cela est utilisé par ce site de documentation. La plupart des
-pages bénéficient de la présentation de la table des matières. Quelques fois,
-la table des matières n&rsquo;a pas beaucoup de sens. Nous avons défini une variable
-dans notre section liminaire de quelques pages pour désactiver la table des
-matières.</p>
-<p>Ceci est un exemple de section liminaire :</p>
+<p>Access the page parameter called &ldquo;disqus_url&rdquo; and escape the HTML.</p>
+<p><strong>Example 3 :</strong></p>
+<pre><code>{{ if or (or (isset .Params &quot;title&quot;) (isset .Params &quot;caption&quot;)) (isset .Params &quot;attr&quot;)}}
+Stuff Here
+{{ end }}
+</code></pre>
+<p>Could be rewritten as</p>
+<pre><code>{{  isset .Params &quot;caption&quot; | or isset .Params &quot;title&quot; | or isset .Params &quot;attr&quot; | if }}
+Stuff Here
+{{ end }}
+</code></pre>
+<h2 id="context-aka-the-dot">Context (aka. the dot)</h2>
+<p>The most easily overlooked concept to understand about Go templates is that {{ . }}
+always refers to the current context. In the top level of your template this
+will be the data set made available to it. Inside of a iteration it will have
+the value of the current item. When inside of a loop the context has changed. .
+will no longer refer to the data available to the entire page. If you need to
+access this from within the loop you will likely want to set it to a variable
+instead of depending on the context.</p>
+<p><strong>Example:</strong></p>
+<pre><code>  {{ $title := .Site.Title }}
+  {{ range .Params.tags }}
+    &lt;li&gt; &lt;a href=&quot;{{ $baseurl }}/tags/{{ . | urlize }}&quot;&gt;{{ . }}&lt;/a&gt; - {{ $title }} &lt;/li&gt;
+  {{ end }}
+</code></pre>
+<p>Notice how once we have entered the loop the value of {{ . }} has changed. We
+have defined a variable outside of the loop so we have access to it from within
+the loop.</p>
+<h1 id="hugo-parameters">Hugo Parameters</h1>
+<p>Hugo provides the option of passing values to the template language
+through the site configuration (for sitewide values), or through the meta
+data of each specific piece of content. You can define any values of any
+type (supported by your front matter/config format) and use them however
+you want to inside of your templates.</p>
+<h2 id="using-content-page-parameters">Using Content (page) Parameters</h2>
+<p>In each piece of content you can provide variables to be used by the
+templates. This happens in the <a href="/content/front-matter">front matter</a>.</p>
+<p>An example of this is used in this documentation site. Most of the pages
+benefit from having the table of contents provided. Sometimes the TOC just
+doesn&rsquo;t make a lot of sense. We&rsquo;ve defined a variable in our front matter
+of some pages to turn off the TOC from being displayed.</p>
+<p>Here is the example front matter:</p>
 
 
 
@@ -999,26 +531,26 @@ matières.</p>
     </svg>
   
 </div>
-<p>Ceci est le code correspondant dans le modèle :</p>
+<p>Here is the corresponding code inside of the template:</p>
 <pre><code>  {{ if not .Params.notoc }}
     &lt;div id=&quot;toc&quot; class=&quot;well col-md-4 col-sm-6&quot;&gt;
     {{ .TableOfContents }}
     &lt;/div&gt;
   {{ end }}
 </code></pre>
-<h2 id="utiliser-les-paramètres-de-site-config">Utiliser les paramètres de site (config)</h2>
-<p>Dans votre configuration de plus haut niveau (ex <code>config.yaml</code>), vous pouvez
-définir des paramètres de site, dont les valeurs vous seront accessibles.</p>
-<p>Pour les instances, vous pourriez délarer :</p>
+<h2 id="using-site-config-parameters">Using Site (config) Parameters</h2>
+<p>In your top-level configuration file (eg, <code>config.yaml</code>) you can define site
+parameters, which are values which will be available to you in chrome.</p>
+<p>For instance, you might declare:</p>
 <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-yaml" data-lang="yaml"><span style="display:flex;"><span><span style="color:#f92672">params</span>:
 </span></span><span style="display:flex;"><span>  <span style="color:#f92672">CopyrightHTML</span>: <span style="color:#e6db74">&#34;Copyright &amp;#xA9; 2013 John Doe. All Rights Reserved.&#34;</span>
 </span></span><span style="display:flex;"><span>  <span style="color:#f92672">TwitterUser</span>: <span style="color:#e6db74">&#34;spf13&#34;</span>
 </span></span><span style="display:flex;"><span>  <span style="color:#f92672">SidebarRecentLimit</span>: <span style="color:#ae81ff">5</span>
-</span></span></code></pre></div><p>Avec un pied de page, vous devriez déclarer un <code>&lt;footer&gt;</code> qui est affiché
-seulement si le paramètre <code>CopyrightHTML</code> est déclaré, et si il l&rsquo;est, vous
-devriez le déclarer comme HTML-safe, afin d&rsquo;éviter d&rsquo;échapper les entités HTML.
-Cela vous permettra de le modifier facilement dans votre configuration au lieu
-de le chercher dans votre modèle.</p>
+</span></span></code></pre></div><p>Within a footer layout, you might then declare a <code>&lt;footer&gt;</code> which is only
+provided if the <code>CopyrightHTML</code> parameter is provided, and if it is given,
+you would declare it to be HTML-safe, so that the HTML entity is not escaped
+again.  This would let you easily update just your top-level config file each
+January 1st, instead of hunting through your templates.</p>
 
 
 
@@ -1161,8 +693,9 @@ de le chercher dans votre modèle.</p>
     </svg>
   
 </div>
-<p>Une alternative au &ldquo;if&rdquo; et d&rsquo;appeler la même valeur est d&rsquo;utiliser &ldquo;with&rdquo;. Cela
-modifiera le contexte et passera le bloc si la variable est absente :</p>
+<p>An alternative way of writing the &ldquo;if&rdquo; and then referencing the same value
+is to use &ldquo;with&rdquo; instead. With rebinds the context <code>.</code> within its scope,
+and skips the block if the variable is absent:</p>
 
 
 
@@ -1382,8 +915,8 @@ modifiera le contexte et passera le bloc si la variable est absente :</p>
     </svg>
   
 </div>
-<p>Enfin, si vous souhaitez extraire des &ldquo;constantes magiques&rdquo; de vos mises en
-page, vous pouvez le faire comme dans l&rsquo;exemple suivant :</p>
+<p>Finally, if you want to pull &ldquo;magic constants&rdquo; out of your layouts, you can do
+so, such as in this example:</p>
 
 
 
@@ -1570,23 +1103,135 @@ page, vous pouvez le faire comme dans l&rsquo;exemple suivant :</p>
   
 </div>
 
-            </div>
-        </article>
-
-        <hr />
-
-        <div class="post-info">
-            
-            
-    <p>
-        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-folder meta-icon"><path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z"></path></svg>
-
-        <span class="tag"><a href="//localhost:1313/categories/go/">Go</a></span>
+      </div>
+    </article>
+      <hr />
+    <div class="post-info">
+      
+    <div class="pagination">
         
-    </p>
 
-  		</div>
-    </main>
+        <div class="pagination__buttons">
+            
+            <span class="button previous">
+                <a href="//localhost:1313/posts/crtp-my-experience/">
+                    <span class="button__icon">←</span>
+                    <span class="button__text">Certified Red Team Professional: My Experience and Takeaways</span>
+                </a>
+            </span>
+            
+
+            
+            <span class="button next">
+                <a href="//localhost:1313/posts/debuter-avec-hugo/">
+                    <span class="button__text">Débuter avec Hugo</span>
+                    <span class="button__icon">→</span>
+                </a>
+            </span>
+            
+        </div>
+    </div>
+
+    </div>
+      <div class="sharing-buttons">
+        
+<a class="resp-sharing-button__link" href="https://facebook.com/sharer/sharer.php?u=%2f%2flocalhost%3a1313%2fposts%2fgoisforlovers%2f" target="_blank" rel="noopener" aria-label="" title="Share on facebook">
+  <div class="resp-sharing-button resp-sharing-button--facebook resp-sharing-button--small"><div aria-hidden="true" class="resp-sharing-button__icon resp-sharing-button__icon--solid">
+    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"></path></svg>
+    </div>
+  </div>
+</a>
+
+
+<a class="resp-sharing-button__link" href="https://twitter.com/intent/tweet/?url=%2f%2flocalhost%3a1313%2fposts%2fgoisforlovers%2f" target="_blank" rel="noopener" aria-label="" title="Share on twitter">
+  <div class="resp-sharing-button resp-sharing-button--twitter resp-sharing-button--small">
+      <div aria-hidden="true" class="resp-sharing-button__icon resp-sharing-button__icon--solid">
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M23 3a10.9 10.9 0 0 1-3.14 1.53 4.48 4.48 0 0 0-7.86 3v1A10.66 10.66 0 0 1 3 4s-4 9 5 13a11.64 11.64 0 0 1-7 2c9 5 20 0 20-11.5a4.5 4.5 0 0 0-.08-.83A7.72 7.72 0 0 0 23 3z"></path></svg>
+    </div>
+  </div>
+</a>
+
+
+<a class="resp-sharing-button__link" href="https://www.tumblr.com/widgets/share/tool?posttype=link&amp;title=%28Hu%29go%20Template%20Primer&amp;caption=%28Hu%29go%20Template%20Primer&amp;canonicalUrl=%2f%2flocalhost%3a1313%2fposts%2fgoisforlovers%2f" target="_blank" rel="noopener" aria-label="" title="Share on tumblr">
+  <div class="resp-sharing-button resp-sharing-button--tumblr resp-sharing-button--small">
+    <div aria-hidden="true" class="resp-sharing-button__icon resp-sharing-button__icon--solid">
+      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="currentColor" stroke="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14.563 24c-5.093 0-7.031-3.756-7.031-6.411V9.747H5.116V6.648c3.63-1.313 4.512-4.596 4.71-6.469C9.84.051 9.941 0 9.999 0h3.517v6.114h4.801v3.633h-4.82v7.47c.016 1.001.375 2.371 2.207 2.371h.09c.631-.02 1.486-.205 1.936-.419l1.156 3.425c-.436.636-2.4 1.374-4.156 1.404h-.178l.011.002z"/></svg>
+    </div>
+  </div>
+</a>
+
+
+<a class="resp-sharing-button__link" href="mailto:?subject=%28Hu%29go%20Template%20Primer&amp;body=%2f%2flocalhost%3a1313%2fposts%2fgoisforlovers%2f" target="_self" rel="noopener" aria-label="" title="Share via email">
+  <div class="resp-sharing-button resp-sharing-button--email resp-sharing-button--small"><div aria-hidden="true" class="resp-sharing-button__icon resp-sharing-button__icon--solid">
+    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path><polyline points="22,6 12,13 2,6"></polyline></svg>
+    </div>
+  </div>
+</a>
+
+
+<a class="resp-sharing-button__link" href="https://pinterest.com/pin/create/button/?url=%2f%2flocalhost%3a1313%2fposts%2fgoisforlovers%2f&amp;media=%2f%2flocalhost%3a1313%2fposts%2fgoisforlovers%2f;description=%28Hu%29go%20Template%20Primer" target="_blank" rel="noopener" aria-label="" title="Share on pinterest">
+  <div class="resp-sharing-button resp-sharing-button--pinterest resp-sharing-button--small"><div aria-hidden="true" class="resp-sharing-button__icon resp-sharing-button__icon--solid">
+    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="currentColor" stroke="none"><path d="M12.017 0C5.396 0 .029 5.367.029 11.987c0 5.079 3.158 9.417 7.618 11.162-.105-.949-.199-2.403.041-3.439.219-.937 1.406-5.957 1.406-5.957s-.359-.72-.359-1.781c0-1.663.967-2.911 2.168-2.911 1.024 0 1.518.769 1.518 1.688 0 1.029-.653 2.567-.992 3.992-.285 1.193.6 2.165 1.775 2.165 2.128 0 3.768-2.245 3.768-5.487 0-2.861-2.063-4.869-5.008-4.869-3.41 0-5.409 2.562-5.409 5.199 0 1.033.394 2.143.889 2.741.099.12.112.225.085.345-.09.375-.293 1.199-.334 1.363-.053.225-.172.271-.401.165-1.495-.69-2.433-2.878-2.433-4.646 0-3.776 2.748-7.252 7.92-7.252 4.158 0 7.392 2.967 7.392 6.923 0 4.135-2.607 7.462-6.233 7.462-1.214 0-2.354-.629-2.758-1.379l-.749 2.848c-.269 1.045-1.004 2.352-1.498 3.146 1.123.345 2.306.535 3.55.535 6.607 0 11.985-5.365 11.985-11.987C23.97 5.39 18.592.026 11.985.026L12.017 0z"/></svg>
+    </div>
+  </div>
+</a>
+
+
+<a class="resp-sharing-button__link" href="https://www.linkedin.com/shareArticle?mini=true&amp;url=%2f%2flocalhost%3a1313%2fposts%2fgoisforlovers%2f&amp;title=%28Hu%29go%20Template%20Primer&amp;summary=%28Hu%29go%20Template%20Primer&amp;source=%2f%2flocalhost%3a1313%2fposts%2fgoisforlovers%2f" target="_blank" rel="noopener" aria-label="" title="Share on linkedin">
+  <div class="resp-sharing-button resp-sharing-button--linkedin resp-sharing-button--small"><div aria-hidden="true" class="resp-sharing-button__icon resp-sharing-button__icon--solid">
+    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path><rect x="2" y="9" width="4" height="12"></rect><circle cx="4" cy="4" r="2"></circle></svg>
+    </div>
+  </div>
+</a>
+
+
+<a class="resp-sharing-button__link" href="https://reddit.com/submit/?url=%2f%2flocalhost%3a1313%2fposts%2fgoisforlovers%2f&amp;resubmit=true&amp;title=%28Hu%29go%20Template%20Primer" target="_blank" rel="noopener" aria-label="" title="Share on reddit">
+  <div class="resp-sharing-button resp-sharing-button--reddit resp-sharing-button--small"><div aria-hidden="true" class="resp-sharing-button__icon resp-sharing-button__icon--solid">
+    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="currentColor" stroke="none"><path d="M12 0A12 12 0 0 0 0 12a12 12 0 0 0 12 12 12 12 0 0 0 12-12A12 12 0 0 0 12 0zm5.01 4.744c.688 0 1.25.561 1.25 1.249a1.25 1.25 0 0 1-2.498.056l-2.597-.547-.8 3.747c1.824.07 3.48.632 4.674 1.488.308-.309.73-.491 1.207-.491.968 0 1.754.786 1.754 1.754 0 .716-.435 1.333-1.01 1.614a3.111 3.111 0 0 1 .042.52c0 2.694-3.13 4.87-7.004 4.87-3.874 0-7.004-2.176-7.004-4.87 0-.183.015-.366.043-.534A1.748 1.748 0 0 1 4.028 12c0-.968.786-1.754 1.754-1.754.463 0 .898.196 1.207.49 1.207-.883 2.878-1.43 4.744-1.487l.885-4.182a.342.342 0 0 1 .14-.197.35.35 0 0 1 .238-.042l2.906.617a1.214 1.214 0 0 1 1.108-.701zM9.25 12C8.561 12 8 12.562 8 13.25c0 .687.561 1.248 1.25 1.248.687 0 1.248-.561 1.248-1.249 0-.688-.561-1.249-1.249-1.249zm5.5 0c-.687 0-1.248.561-1.248 1.25 0 .687.561 1.248 1.249 1.248.688 0 1.249-.561 1.249-1.249 0-.687-.562-1.249-1.25-1.249zm-5.466 3.99a.327.327 0 0 0-.231.094.33.33 0 0 0 0 .463c.842.842 2.484.913 2.961.913.477 0 2.105-.056 2.961-.913a.361.361 0 0 0 .029-.463.33.33 0 0 0-.464 0c-.547.533-1.684.73-2.512.73-.828 0-1.979-.196-2.512-.73a.326.326 0 0 0-.232-.095z"/></svg>
+    </div>
+  </div>
+</a>
+
+
+<a class="resp-sharing-button__link" href="https://www.xing.com/app/user?op=share;url=%2f%2flocalhost%3a1313%2fposts%2fgoisforlovers%2f;title=%28Hu%29go%20Template%20Primer" target="_blank" rel="noopener" aria-label="" title="Share on xing">
+  <div class="resp-sharing-button resp-sharing-button--xing resp-sharing-button--small"><div aria-hidden="true" class="resp-sharing-button__icon resp-sharing-button__icon--solid">
+    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="currentColor" stroke="none"><path d="M18.188 0c-.517 0-.741.325-.927.66 0 0-7.455 13.224-7.702 13.657.015.024 4.919 9.023 4.919 9.023.17.308.436.66.967.66h3.454c.211 0 .375-.078.463-.22.089-.151.089-.346-.009-.536l-4.879-8.916c-.004-.006-.004-.016 0-.022L22.139.756c.095-.191.097-.387.006-.535C22.056.078 21.894 0 21.686 0h-3.498zM3.648 4.74c-.211 0-.385.074-.473.216-.09.149-.078.339.02.531l2.34 4.05c.004.01.004.016 0 .021L1.86 16.051c-.099.188-.093.381 0 .529.085.142.239.234.45.234h3.461c.518 0 .766-.348.945-.667l3.734-6.609-2.378-4.155c-.172-.315-.434-.659-.962-.659H3.648v.016z"/></svg>
+    </div>
+  </div>
+</a>
+
+
+<a class="resp-sharing-button__link" href="whatsapp://send?text=%28Hu%29go%20Template%20Primer%20%2f%2flocalhost%3a1313%2fposts%2fgoisforlovers%2f" target="_blank" rel="noopener" aria-label="" title="Share on whatsapp">
+  <div class="resp-sharing-button resp-sharing-button--whatsapp resp-sharing-button--small"><div aria-hidden="true" class="resp-sharing-button__icon resp-sharing-button__icon--solid">
+    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="currentColor" stroke="none" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413Z"/></svg>
+    </div>
+  </div>
+</a>
+
+
+<a class="resp-sharing-button__link" href="https://news.ycombinator.com/submitlink?u=%2f%2flocalhost%3a1313%2fposts%2fgoisforlovers%2f&amp;t=%28Hu%29go%20Template%20Primer" target="_blank" rel="noopener" aria-label="" title="Share on hacker news">
+  <div class="resp-sharing-button resp-sharing-button--hackernews resp-sharing-button--small"><div aria-hidden="true" class="resp-sharing-button__icon resp-sharing-button__icon--solid">
+			<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="currentColor" stroke="none"><path d="M0 24V0h24v24H0zM6.951 5.896l4.112 7.708v5.064h1.583v-4.972l4.148-7.799h-1.749l-2.457 4.875c-.372.745-.688 1.434-.688 1.434s-.297-.708-.651-1.434L8.831 5.896h-1.88z"/></svg>
+    </div>
+  </div>
+</a>
+
+
+<a class="resp-sharing-button__link" href="https://telegram.me/share/url?text=%28Hu%29go%20Template%20Primer&amp;url=%2f%2flocalhost%3a1313%2fposts%2fgoisforlovers%2f" target="_blank" rel="noopener" aria-label="" title="Share on telegram">
+  <div class="resp-sharing-button resp-sharing-button--telegram resp-sharing-button--small"><div aria-hidden="true" class="resp-sharing-button__icon resp-sharing-button__icon--solid">
+      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="22" y1="2" x2="11" y2="13"></line><polygon points="22 2 15 22 11 13 2 9 22 2"></polygon></svg>
+    </div>
+  </div>
+</a>
+
+      </div>
+
+
+    
+
+    
+
+  </main>
 
             </div>
 
