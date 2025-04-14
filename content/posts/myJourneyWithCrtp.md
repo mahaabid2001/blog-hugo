@@ -9,6 +9,7 @@ linktitle = "My CRTP Journey"
 title = "Certified Red Team Professional: My Experience and Takeaways"
 slug = "crtp-my-experience"
 type = "post"
+url = "/posts/crtp-my-experience/"
 +++
 
 ### Introduction
